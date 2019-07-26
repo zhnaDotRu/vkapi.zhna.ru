@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  min-height: 100%;
+}
+
+.main-h1 {
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
+.main-text {
+  margin: 10px 0 0 0;
+  text-align: center;
+
+  &.mod-name {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  &.mod-id {
+    font-size: 18px;
+  }
+}
+
+.main-img {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.friends {
+  box-sizing: border-box;
+  padding: 0 20px 0 20px;
+}
+
+.friends-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.friends-list {
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 0;
+  width: 100%;
+}
+
+.friend {
+  display: flex;
+}
+
+.friend-img {
+  background-position: center;
+  background-size: cover;
+  flex-basis: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.friend-block {
+  margin-left: 10px;
+}
+
+.friend-text {
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+}
